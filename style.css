@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=Poppins:wght@100;300;400;500&family=Roboto:wght@400;700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -31,6 +34,33 @@
     flex-direction: column;
     transition: width 0.5s;
 }
+/* Hover effect on .side-nav */
+.side-nav ul li:hover{
+    color: #fff;
+    
+     transform: translateY(-5px);
+     transition: 0.4s ease-out;
+     font-weight: bold;
+     font-size: large;
+     .nav-img{
+        width: 40px;
+        
+     }
+     
+     /* .nav-img:hover{
+        color: #fff;
+        transform: translateY(-4px);
+     transition: 0.3s;
+     width: 40px;
+     }  */
+     
+    
+}
+
+
+
+    
+
 
 .user{
     display: flex;
